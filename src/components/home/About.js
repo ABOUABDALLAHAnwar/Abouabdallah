@@ -66,7 +66,7 @@ class About extends React.Component {
                     </div>
 
                     <div className='column image-column' ref="box2">
-                        <img src={process.env.PUBLIC_URL + '/Images/maame.jpeg'} alt='Profile' />
+                        <img src='/Images/maame.jpeg' alt='Profile' />
                         
                     </div>
                 </div>
