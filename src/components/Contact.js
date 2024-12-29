@@ -11,9 +11,9 @@ import ScrollReveal from 'scrollreveal';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 // Get these from https://www.emailjs.com/
-const SERVICE_ID = "";
-const TEMPLATE_ID = "";
-const PUBLIC_KEY = "";
+const SERVICE_ID = "service_xu0wa4r";
+const TEMPLATE_ID = "template_ugml8fi";
+const PUBLIC_KEY = "kIklm12lVa5eWXItT";
 
 class Contact extends React.Component {
     refs = React.createRef();

@@ -90,4 +90,4 @@ class Testimonial extends React.Component {
     }
 }
 
-export default Testimonial
+//export default Testimonial

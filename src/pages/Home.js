@@ -3,7 +3,7 @@ import About from '../components/home/About'
 import Video from '../components/home/Video'
 import MainPageLayout from '../components/MainPageLayout'
 import Publications from '../components/home/Publications'
-import Testimonials from '../components/home/Testimonial'
+//import Testimonials from '../components/home/Testimonial'
 
 const Home = () => {
   return (
@@ -17,9 +17,7 @@ const Home = () => {
           <div id='publications'>
               <Publications />
           </div>
-          <div id='testimonials'>
-              <Testimonials />
-          </div>
+         
       </MainPageLayout>
   )
 }

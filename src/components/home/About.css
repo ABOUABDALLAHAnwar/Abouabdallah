@@ -62,3 +62,20 @@
     margin-bottom: 3%;
     padding-right: 5%;
 }
+
+/* Style definitions */
+.section-title {
+    font-size: 4.5em; /* Adjust as needed */
+    font-weight: bold; /* Or other styling */
+    display: block; /* Ensures it takes full width */
+    margin-bottom: 0.5em; /* Adds some spacing below the title */
+  }
+  
+  .text-large {
+    font-size: 1.1em; /* Slightly larger than default */
+    line-height: 1.4; /* improves readability */
+  }
+  
+  h6 {
+      margin-bottom: 0px; /* remove default margin from h6 */
+  }

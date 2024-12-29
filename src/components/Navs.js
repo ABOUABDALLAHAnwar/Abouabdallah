@@ -17,9 +17,9 @@ var LINKS = [
     { to: "/experience", text: "Experience", inside: false},
     { to: "/#publications", text: "Publications", inside: true, to1: "publications" },
     { to: "/projects", text: "Projects", inside: false },
-    { to: "/#testimonials", text: "Testimonials", inside: true, to1: "testimonials"},
     { to: "/resume", text: "Resume", inside: false },
     { to: "/contact", text: "Contact", inside: false },
+    { to: "/chatbot", text: "My own chatbot", inside: false },
 ];
 
 function openNav() {
@@ -83,9 +83,9 @@ const Navs = () => {
             <div className="nav-header" id="nav-header">
         <nav className="navigation">
                     <NavLink to="/#home">
-                        <img src='/Images/logo.png' alt="logo" className="logo" id="website-logo" />
+                        <img src='/Images/signature.jpeg' alt="logo" className="logo" id="website-logo" />
                     </NavLink>
-            <NavLink to="/#home"><img src='/Images/logo-blue.png' alt="logo" className="logo-hover" /></NavLink>
+            <NavLink to="/#home"><img src='/Images/signature.jpeg' alt="logo" className="logo-hover" /></NavLink>
           <ul className="nav-items">
                         {LINKS.map((item) => (
                 item.inside ?

@@ -29,16 +29,31 @@ class Publications extends React.Component {
             </div>
             <div className='publication-content'>
                 <ol>
-                    <li ref="pubbox2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <li>
+                    Evaluating the adequacy between morphological-based and molecular-based inventories at high taxonomic level co-written
+                            with Nathalie Peyrard and Alain Franc.
+                        <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13579">
+                             (Molecular Ecology resources)
+                        </a>
                     </li>
                     <br />
-                    <li ref="pubbox3">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <li>
+                    Computing SBM marginals with TT decomposition co-written with Nathalie Peyrard, Alain Franc and Olivier Coulaud.
+                        <a href="https://inria.hal.science/hal-04394024">
+                            (Hal INRIA)
+                        </a>
                     </li>
+                    <li>
+                    Thesis manuscript: Tensor-Train approach for inference in stochastic block models, application to the biodiversity characterization.
+                    Associated library: TT-SBM-Py: Tensor Train for Stochastic Block Models (library actually under maintenance)
+                        <a href="https://theses.fr/2023BORD0023">
+                            (French manuscript.)
+                        </a>
+                    </li>
+
+
                 </ol>
-            </div>
-        </>
+            </div>        </>
         )
     }
 }
