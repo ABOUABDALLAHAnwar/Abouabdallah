@@ -28,11 +28,11 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/experience" element={<Experiences />} />
         <Route path="/resume" element={<ResumeDis />} />
-        <Route path="/#about" element={<About />} />
-        <Route path="/#publications" element={<Publications />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/publications" element={<Publications />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<ContactMe />} />
-        <Route path="/chatbot" element={<ChatbotPage />} />  {/* Add route for Chatbot */}
+        <Route path="/chatbot" element={<ChatbotPage />} /> 
       </Routes>
     </ThemeProvider>
   );

@@ -28,11 +28,11 @@ class Experience extends React.Component {
                     <h1>EXPERIENCE</h1>
                 </div>
                 <div className="exp-content">
-                    {/* EXPLEO Experience */}
+                    {/* EXPLEO Experience ./Abouabdallah/ */}
                     <div className="exp-row">
                         <div className="exp-column1">
                             <p className="exp-column-h6">Data Consultant</p>
-                            <p className="exp-prof-name"> <img src='/Images/expleo.jpg' alt='Profile' style={{ width: '150px', height: '100px' }} />
+                            <p className="exp-prof-name"> <img src='/Abouabdallah/Images/expleo.jpg' alt='Profile' style={{ width: '150px', height: '100px' }} />
  </p>
 
                             <p className="exp-date">October 2023 - Now</p>
@@ -54,19 +54,29 @@ class Experience extends React.Component {
                     <div className="exp-row">
                         <div className="exp-column1">
                             <p className="exp-column-h6">Cloud Data Scientist</p>
-                            <p className="exp-prof-name"><img src='/Images/mangrove.png' alt='Profile' style={{ width: '150px', height: '100px' }} /></p>
+                            <p className="exp-prof-name"><img src='/Abouabdallah/Images/mangrove.png' alt='Profile' style={{ width: '150px', height: '100px' }} /></p>
                             <p className="exp-date">January 2023 - September 2023</p>
                             <p className="exp-location">Bordeaux</p>
                             <ul>
-                                <li>
-                                    <strong>Internal projects:</strong> Photo sharing software 
-                                    (<strong>AWS CloudFormation/S3/DynamoDB, Python, Git</strong>) and predictive finance project 
-                                    (<strong>AWS SAM/S3/DynamoDB, Docker, Python, OpenBB</strong>).
-                                </li>
-                                <li>
-                                    <strong>Customer project:</strong> Spreadsheet table recognition 
-                                    (<strong>Sagemaker, Python</strong>).
-                                </li>
+                            <li>
+    <strong>Internal Projects:</strong>  
+    I contributed to the development of two major internal projects:  
+    <ul>
+        <li>
+            <strong>Photo-sharing software:</strong>  
+            Designed and implemented a software solution to enable efficient photo sharing across a cloud-based architecture. This project involved configuring and deploying services using AWS CloudFormation for infrastructure as code, Amazon S3 for scalable storage, and DynamoDB for a highly performant NoSQL database. The project utilized Python for backend development and Git for version control, ensuring seamless collaboration across the team.  
+        </li>
+        <li>
+            <strong>Predictive finance project:</strong>  
+            Played a key role in building a predictive analytics platform for financial forecasting. The project involved creating a serverless architecture using AWS SAM and integrating various AWS services like S3 and DynamoDB for data storage and retrieval. Docker was employed for containerized deployment, and OpenBB was leveraged for financial data analysis and visualization. Python was the primary programming language used to implement data processing pipelines and predictive algorithms.  
+        </li>
+    </ul>
+</li>
+<li>
+    <strong>Customer Project:</strong>  
+    Led the development of a sophisticated data pipeline to automate table recognition and extraction from large volumes of documents for a client. This project utilized machine learning capabilities with Amazon SageMaker to train and deploy models for accurate table extraction. Python was employed for building the data processing logic, while AWS Lambda was used to create serverless functions for seamless integration and scalability. Additionally, Kubernetes was implemented to manage containerized workloads, ensuring a robust and scalable solution for the client’s needs.  
+</li>
+
                             </ul>
                         </div>
                     </div>
@@ -74,7 +84,7 @@ class Experience extends React.Component {
                     <div className="exp-row">
                         <div className="exp-column1">
                             <p className="exp-column-h6">Ph.D. in Applied Mathematics</p>
-                            <p className="exp-prof-name"> <img src='/Images/inria.png' alt='Profile' style={{ width: '150px', height: '100px' }} />
+                            <p className="exp-prof-name"> <img src='/Abouabdallah/Images/inria.png' alt='Profile' style={{ width: '150px', height: '100px' }} />
  </p>
                             <p className="exp-date">October 2019 - September 2022</p>
                             <p className="exp-location">Bordeaux and Toulouse</p>
@@ -105,14 +115,36 @@ class Experience extends React.Component {
                             <p className="exp-date">03/2019 - 09/2020 / 09/2017 - 01/2018</p>
                             <ul>
                                 <li>
-                                    <strong>Final Year Internship:</strong> OTU data clustering using SBM model (Keywords: statistical learning, data analysis) 
+                                <ul>
+                                <strong>Final Year Internship:</strong>
+                                <li>
+
+                                     OTU data clustering using SBM model (Keywords: statistical learning, data analysis) 
                                     (<strong>Git, Python, and R</strong>) at the MIA unit of INRAE Toulouse. 
                                     <a href="https://github.com/mawro69/reports/blob/main/2019_08_Stage_5A_MAM_ABOUABDALLAH_MohamedAnwar.pdf" target="_blank">Report</a>
+                                    </li>
+                                    <li>
+                                    <strong>Abstract : </strong> OTU identification by clustering and by model S.B.M. This internship, has several aims, here is a short presentation : • First of all, I need to use the SBM framework and the VEM algorithm conventionally used for estimating the model. • Next, I’ll set up a complete processing pipeline from the Sequence Alignment Distance Matrix to identifying groups and their links. • Then the pipeline will be implemented on biodiversity data of the Guyanese forest for data of which we have all the taxonomic information (order, species, genera, families). • Finally, I will be interested in comparing the classification via SBM and another unsupervised learning method which is the hierarchical classifi cation. For this, we will take the same set of data, on Guyanese trees on which, we will make classifications to find the different 
+                                    taxa belonging to different taxonomic levels. Then we will calculate the contingency tables in order to compare our two methods and the botanical reality.
+                                    </li>
+                                </ul>
                                 </li>
                                 <li>
-                                    <strong>M2 Internship:</strong> Estimation of population diffusion parameters in a heterogeneous landscape 
+                                <strong>M2 Internship:</strong><ul>
+                                
+                                <li>
+
+                                     Estimation of population diffusion parameters in a heterogeneous landscape 
                                     (<strong>Freefem++ and R</strong>) at the BIOSP unit of INRAE Avignon. 
                                     (<a href="https://github.com/mawro3301/rapports" target="_blank">Report</a>)
+                                    </li>
+                                <li>
+
+                                    <strong>Abstract :</strong> My internship is accomplished in the context of landscape ecology where the diffusion reaction equations allow to model the spatio-temporal dynamics of a population by representing
+                                     the  temporal evolution of the density of individuals u (t, x) in each point in space under the effect of dispersal and reproduction / mortality.
+                                     </li>
+                                
+                                     </ul>
                                 </li>
                             </ul>
                         </div>

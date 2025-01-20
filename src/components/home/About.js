@@ -66,7 +66,7 @@ class About extends React.Component {
                     </div>
 
                     <div className='column image-column' ref="box2">
-                        <img src='./Abouabdallah/Images/maame.jpeg' alt='Profile' />
+                        <img src='/Abouabdallah/Images/maame.jpeg' alt='Profile' />
                         
                     </div>
                 </div>
@@ -79,14 +79,14 @@ class About extends React.Component {
                         <p><span className="text-large">I graduated as an engineer in applied mathematics specializing in random processes and data science in 2019 at Polytech'Lyon. I did my final internship on a particular case of graphical models: Stochastic block models.</span></p>
                         <p><span className="text-large">Following this, I completed a PhD in applied mathematics at INRAE/INRIA in 2022 focusing on graphical models, clustering and tensor algebra. Since then, I have held varied and complementary positions, including as a solution architect, data engineer, and data scientist.</span></p>
                         <div className='column image-column' ref="box2">
-                            <img src='./Abouabdallah/Images/premierpage.png' alt='Profile' style={{ width: '50%', height: 'auto' }} />
+                            <img src='/Abouabdallah/Images/premierpage.png' alt='Profile' style={{ width: '50%', height: 'auto' }} />
                             </div>
                         <p><span className="text-large">My new interests are cloud architecture, Large Language Models, GenAI, and computer vision for sport. 
                         In the section below, I'll present some of my projects related to these fields.
                         
                         </span></p>
                         <div className='column image-column' ref="box2">
-                            <img src='./Abouabdallah/Images/cnn.gif' alt='Profile' style={{ width: '50%', height: 'auto' }} />
+                            <img src='/Abouabdallah/Images/cnn.gif' alt='Profile' style={{ width: '50%', height: 'auto' }} />
                             </div>
                             <div className='column about-content' ref="box4">
     <h6><span className="section-title">FAVORITE TECHNOLOGIES :</span></h6>
@@ -108,7 +108,7 @@ class About extends React.Component {
 
     <div className='column image-column' ref="box5">
     <p>  Here is a <strong>   Dall E art </strong> generated Stack image : </p>
-        <img src='./Abouabdallah/Images/dale.png' alt='Tech Stack' style={{ width: '50%', height: 'auto' }} />
+        <img src='/Abouabdallah/Images/dale.png' alt='Tech Stack' style={{ width: '50%', height: 'auto' }} />
     </div>
 </div>
 

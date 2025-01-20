@@ -45,7 +45,7 @@ class Project extends React.Component {
                         </div>
                         <div className='pro-column'></div>
                         <div className='pro-column2'>
-                            <img src='/Images/load-loading.gif' alt='placeholder' />
+                            <img src='/Abouabdallah/Images/load-loading.gif' alt='placeholder' />
                         </div>
                     </div>
                                         
