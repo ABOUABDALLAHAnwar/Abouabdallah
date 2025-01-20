@@ -41,8 +41,8 @@ class Resume extends React.Component {
         const { language } = this.state;
         const resumeUrl =
             language === 'EN'
-                ? 'Docs/ABOUABDALLAH_MA_updated_.pdf'
-                : 'Docs/ABOUABDALLAH_MA_fr.pdf'; // Update with your actual file paths
+                ? '/Abouabdallah/Docs/ABOUABDALLAH_MA_updated_.pdf'
+                : '/Abouabdallah/Docs/ABOUABDALLAH_MA_fr.pdf'; // Update with your actual file paths
 
         return (
             <>
