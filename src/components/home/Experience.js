@@ -32,7 +32,7 @@ class Experience extends React.Component {
                     <div className="exp-row">
                         <div className="exp-column1">
                             <p className="exp-column-h6">Data Consultant</p>
-                            <p className="exp-prof-name"> <img src='/Abouabdallah/Images/expleo.jpg' alt='Profile' style={{ width: '150px', height: '100px' }} />
+                            <p className="exp-prof-name"> <img src='/Abouabdallah/Images/expleo.jpg' alt='Anwar Abouabdallah - Data Scientist and Python Developer' style={{ width: '150px', height: '100px' }} />
  </p>
 
                             <p className="exp-date">October 2023 - Now</p>
@@ -54,7 +54,7 @@ class Experience extends React.Component {
                     <div className="exp-row">
                         <div className="exp-column1">
                             <p className="exp-column-h6">Cloud Data Scientist</p>
-                            <p className="exp-prof-name"><img src='/Abouabdallah/Images/mangrove.png' alt='Profile' style={{ width: '150px', height: '100px' }} /></p>
+                            <p className="exp-prof-name"><img src='/Abouabdallah/Images/mangrove.png' alt='Anwar Abouabdallah - Data Scientist and Python Developer' style={{ width: '150px', height: '100px' }} /></p>
                             <p className="exp-date">January 2023 - September 2023</p>
                             <p className="exp-location">Bordeaux</p>
                             <ul>
@@ -84,7 +84,7 @@ class Experience extends React.Component {
                     <div className="exp-row">
                         <div className="exp-column1">
                             <p className="exp-column-h6">Ph.D. in Applied Mathematics</p>
-                            <p className="exp-prof-name"> <img src='/Abouabdallah/Images/inria.png' alt='Profile' style={{ width: '150px', height: '100px' }} />
+                            <p className="exp-prof-name"> <img src='/Abouabdallah/Images/inria.png' alt='Anwar Abouabdallah - Data Scientist and Python Developer' style={{ width: '150px', height: '100px' }} />
  </p>
                             <p className="exp-date">October 2019 - September 2022</p>
                             <p className="exp-location">Bordeaux and Toulouse</p>

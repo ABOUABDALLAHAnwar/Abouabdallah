@@ -26,17 +26,6 @@ class About extends React.Component {
                 <div className='row'>
                     <div className='header-start column' ref="box1">
                         <h6><span className="section-title">ABOUT ME</span></h6>
-                        <p> PHD in Applied Mathematics (specialties: graphical models, clustering, and tensor algebra)
-                        <ul>
-                            <li>
-                                <a href="https://adum.fr/as/ed/cv.pl?mat=118356&site=CDUBX">Subject: Tensor-Train approach for inference in stochastic block models, 
-                                application to the characterization of biodiversity</a>
-                            </li>
-                            <li>
-                                2 publications + 10 conferences
-                            </li>
-                        </ul>
-                        </p>
                         <p> Machine Learning Engineer (3 years experience) : Worked on several projects: 
                         <ul>
                             <li>
@@ -53,6 +42,18 @@ class About extends React.Component {
                             </li>
                         </ul>
                         </p>
+                        <p> PHD in Applied Mathematics (specialties: graphical models, clustering, and tensor algebra)
+                        <ul>
+                            <li>
+                                <a href="https://adum.fr/as/ed/cv.pl?mat=118356&site=CDUBX">Subject: Tensor-Train approach for inference in stochastic block models, 
+                                application to the characterization of biodiversity</a>
+                            </li>
+                            <li>
+                                2 publications + 10 conferences
+                            </li>
+                        </ul>
+                        </p>
+
                         <p> AWS Cloud Junior (2 certificates):
                             <ul>
                                 <li>
@@ -66,9 +67,12 @@ class About extends React.Component {
                     </div>
 
                     <div className='column image-column' ref="box2">
-                        <img src='/Abouabdallah/Images/maame.jpeg' alt='Profile' />
-                        
+                        <img src='/Abouabdallah/Images/maame.jpeg' 
+                        alt='Anwar Abouabdallah - Data Scientist and Python Developer'  
+                        title='Anwar Abouabdallah - Data Scientist and Python Developer in Bordeaux' />                        
                     </div>
+                    
+
                 </div>
 
                 <div className='row1' ref='about'>
@@ -79,14 +83,14 @@ class About extends React.Component {
                         <p><span className="text-large">I graduated as an engineer in applied mathematics specializing in random processes and data science in 2019 at Polytech'Lyon. I did my final internship on a particular case of graphical models: Stochastic block models.</span></p>
                         <p><span className="text-large">Following this, I completed a PhD in applied mathematics at INRAE/INRIA in 2022 focusing on graphical models, clustering and tensor algebra. Since then, I have held varied and complementary positions, including as a solution architect, data engineer, and data scientist.</span></p>
                         <div className='column image-column' ref="box2">
-                            <img src='/Abouabdallah/Images/premierpage.png' alt='Profile' style={{ width: '50%', height: 'auto' }} />
+                            <img src='/Abouabdallah/Images/premierpage.png' alt='Anwar Abouabdallah - Data Scientist and Python Developer' style={{ width: '50%', height: 'auto' }} />
                             </div>
                         <p><span className="text-large">My new interests are cloud architecture, Large Language Models, GenAI, and computer vision for sport. 
                         In the section below, I'll present some of my projects related to these fields.
                         
                         </span></p>
                         <div className='column image-column' ref="box2">
-                            <img src='/Abouabdallah/Images/cnn.gif' alt='Profile' style={{ width: '50%', height: 'auto' }} />
+                            <img src='/Abouabdallah/Images/cnn.gif' alt='Anwar Abouabdallah - Data Scientist and Python Developer' style={{ width: '50%', height: 'auto' }} />
                             </div>
                             <div className='column about-content' ref="box4">
     <h6><span className="section-title">FAVORITE TECHNOLOGIES :</span></h6>
@@ -108,7 +112,7 @@ class About extends React.Component {
 
     <div className='column image-column' ref="box5">
     <p>  Here is a <strong>   Dall E art </strong> generated Stack image : </p>
-        <img src='/Abouabdallah/Images/dale.png' alt='Tech Stack' style={{ width: '50%', height: 'auto' }} />
+        <img src='/Abouabdallah/Images/dale.png' alt='Anwar Abouabdallah - Data Scientist and Python Developer, Tech Stack' style={{ width: '50%', height: 'auto' }} />
     </div>
 </div>
 
