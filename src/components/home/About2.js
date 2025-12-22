@@ -23,69 +23,57 @@ class About extends React.Component {
     render() {
         return (
             <>
-            <div className='row'>
-                <div className='header-start column' ref="box1">
-                    <h6><span className="section-title">ABOUT ME</span></h6>
-                    <p>
-                        Machine Learning Engineer (3 years experience) : Worked on several projects:
-                        <ul>
-                            <li>RCNN for Table extractor (Tablesens implementation)</li>
-                            <li>Prediction of fuel and electricity consumption in farms (Gaia project)</li>
-                            <li>Building a carbon simulator for consulting firms (Grace project)</li>
-                            <li>Clustering for metabarcoding/tweets during my PhD + development of an R library</li>
-                            <li>Implementation of the backend of LLM powered chatbot (JurIA):
-                                <ul>
-                                    <li>Prompt engineering for text extraction</li>
-                                    <li>Implementation of the RAG process</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </p>
-                    <p>
-                        Python Backend developer :
-                        <ul>
-                            <li>Implementation of the backend of two applications using FastApi and MongoDB as database</li>
-                        </ul>
-                    </p>
-                    <p>
-                        PHD in Applied Mathematics (specialties: graphical models, clustering, and tensor algebra)
+                <div className='row'>
+                    <div className='header-start column' ref="box1">
+                        <h6><span className="section-title">ABOUT ME</span></h6>
+                        <p> Machine Learning Engineer (3 years experience) : Worked on several projects: 
                         <ul>
                             <li>
-                                <a href="https://adum.fr/as/ed/cv.pl?mat=118356&site=CDUBX">
-                                    Subject: Tensor-Train approach for inference in stochastic block models, application to the characterization of biodiversity
-                                </a>
+                                RCNN for Table extractor (Tablesens implementation)
                             </li>
-                            <li>2 publications + 10 conferences</li>
+                            <li>
+                                Prediction of fuel and electricity consumption in farms (Gaia project) 
+                            </li>
+                            <li> 
+                                Building a carbon simulator for consulting firms (Grace project) 
+                            </li>
+                            <li>
+                                Clustering for metabarcoding/tweets during my PhD + development of an R library
+                            </li>
                         </ul>
-                    </p>
-                    <p>
-                        AWS Cloud Junior :
+                        </p>
+                        <p> PHD in Applied Mathematics (specialties: graphical models, clustering, and tensor algebra)
                         <ul>
                             <li>
-                                <a href="https://www.credly.com/badges/b204528e-c6b7-4f94-990d-e67e293d8ae4">
-                                    Solution Architect Associate
-                                </a>
+                                <a href="https://adum.fr/as/ed/cv.pl?mat=118356&site=CDUBX">Subject: Tensor-Train approach for inference in stochastic block models, 
+                                application to the characterization of biodiversity</a>
                             </li>
                             <li>
-                                <a href="https://www.credly.com/badges/8d6a284b-f7fd-4745-9ad8-98905a4d44a6">
-                                    Machine Learning – Specialty
-                                </a>
-                            </li>
-                            <li>
-                                Participation in the development of photo sharing software (AWS CloudFormation/S3/DynamoDB, Python, Git) and predictive finance project (AWS SAM/S3/DynamoDB, Docker, Python, OpenBB)
+                                2 publications + 10 conferences
                             </li>
                         </ul>
-                    </p>
-                </div>
+                        </p>
 
-                <div className='column image-column' ref="box2">
-                    <img
-                        src='/Abouabdallah/Images/maame.jpeg'
-                        alt='Anwar Abouabdallah - Data Scientist and Python Developer'
-                        title='Anwar Abouabdallah - Data Scientist and Python Developer in Bordeaux'
-                    />
+                        <p> AWS Cloud Junior (2 certificates):
+                            <ul>
+                                <li>
+                                    <a href="https://www.credly.com/badges/b204528e-c6b7-4f94-990d-e67e293d8ae4">Solution Architect Associate</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.credly.com/badges/8d6a284b-f7fd-4745-9ad8-98905a4d44a6">Machine Learning – Specialty</a>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div className='column image-column' ref="box2">
+                        <img src='/Abouabdallah/Images/maame.jpeg' 
+                        alt='Anwar Abouabdallah - Data Scientist and Python Developer'  
+                        title='Anwar Abouabdallah - Data Scientist and Python Developer in Bordeaux' />                        
+                    </div>
+                    
+
                 </div>
-            </div>
 
                 <div className='row1' ref='about'>
                     <div className='column about-content' ref="box3">

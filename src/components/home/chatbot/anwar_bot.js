@@ -116,39 +116,37 @@ const ChatbotPage = () => {
     <div>
       {/* Falcon-7B Explanation Section */}
       <ExplanationWrapper>
-        <h3>How Falcon-7B-Instruct Works</h3>
-        <p>
-          Falcon-7B-Instruct is a large language model (LLM) that falls under the category of instruction-tuned models. 
-          These models, like Falcon-7B-Instruct, are designed to generate more human-aligned responses when given clear and specific instructions. 
-          The Falcon-7B-Instruct is built upon the transformer architecture, a foundational model for most contemporary LLMs, and trained on instruction-following tasks to refine its ability to respond effectively to prompts.
-        </p>
-        <p>
-          The mathematical theory behind Falcon-7B-Instruct is rooted in the transformer architecture, particularly the attention mechanism that underpins its operation. 
-          Transformers leverage self-attention to process sequences of data (such as text) efficiently. In mathematical terms, self-attention computes a weighted sum of all input elements based on their relevance to each other, allowing the model to capture relationships between distant words in a sentence.
-        </p>
-        <p>
-          The core operation in the transformer is described by the following equation for the attention mechanism:
-        </p>
-        <pre>
-          Attention(Q, K, V) = softmax((QK^T) / sqrt(d_k)) V
-        </pre>
-        <p>
-          Here: 
-          Q (Query), K (Key), and V (Value) are matrices derived from the input data. 
-          d_k is the dimension of the key vectors, serving as a scaling factor to prevent large values in the softmax. 
-          The attention scores are computed by taking the dot product of the query and key matrices, which is then normalized via the softmax function. 
-          These scores are used to weight the values, enabling the model to focus on relevant parts of the input sequence.
-        </p>
-        <p>
-          Falcon-7B-Instruct's fine-tuning process allows the model to interpret prompts as instructions, enabling it to generate more relevant and context-aware responses. This instruction-following capability can be modeled as the model's ability to adjust its attention mechanisms based on the type of query and previous training, influencing the likelihood of selecting certain tokens over others during generation.
-        </p>
-        <p>
-          Compared to GPT and Gemini models, Falcon-7B-Instruct differs primarily in its specialized instruction-following training. While GPT models are trained for general language generation and Gemini models are multi-modal, Falcon-7B-Instruct is uniquely tailored for interactive and conversational tasks.
-        </p>
-        <p>
-          In conclusion, Falcon-7B-Instruct's fine-tuning and instruction-following focus represent a significant leap in making LLMs more human-like in interactive, conversational settings.
-        </p>
-      </ExplanationWrapper>
+  <h3>Personal Research Responder</h3>
+  <p>
+    This project is an LLM powered chatbot based on a Retrieval-Augmented Generation (RAG) system designed to answer questions by leveraging a wide range of personal documents. For this example, I'm using my published articles, my thesis manuscript, and various project documentations. But any researcher could include their own papers. The system combines large language model capabilities with retrieval mechanisms to provide accurate and context-aware responses based on the input documents.
+  </p>
+  <p>
+    The core idea behind the RAG approach is to first retrieve relevant information from the document collection before generating a response. This retrieval step ensures that the language model has access to precise and up-to-date content, improving both relevance and factual correctness.
+  </p>
+  <p>
+    Mathematically, the system relies on vector representations of text (embeddings) and similarity search: each document and query is mapped to a vector space, and the most relevant vectors are retrieved based on cosine similarity or other distance metrics.
+  </p>
+  <p>
+    Once relevant documents are retrieved, they are provided as context to the language model, which generates a response conditioned on both the query and the retrieved information. This allows the model to answer questions accurately while staying grounded in the provided documents.
+  </p>
+  <p>The process can be broken down into key steps:</p>
+  <ul>
+    <li>Text extraction: Extract text from documents in LaTeX format using qween3 instruct.</li>
+    <li>Document embedding: Transform articles, thesis sections, and project documentation into vector representations (ChromaDB as vectorial database).</li>
+    <li>Query embedding: Convert the user's question into a vector in the same space.</li>
+    <li>Retrieval: Find the top-3 most relevant document vectors for the query.</li>
+    <li>Response generation: Use a LLaMA3 language model to generate answers based on the retrieved context.</li>
+  </ul>
+  <p>
+    This architecture allows the RAG system to adapt dynamically to different types of questions, providing precise and contextually appropriate answers by combining retrieval and generation in a seamless workflow.
+  </p>
+  <p>
+    In conclusion, by integrating personal research, project documentation, and advanced language models, our RAG project transforms static content into an interactive, intelligent assistant capable of answering questions with high accuracy about tensor algebra and graphical models.
+  </p>
+  <p>
+    The project is currently suspended due to cloud costs.
+  </p>
+</ExplanationWrapper>
 
       {/* Chatbot Section */}
       <ChatbotWrapper>
