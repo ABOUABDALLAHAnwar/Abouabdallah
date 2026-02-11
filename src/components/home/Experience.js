@@ -32,12 +32,16 @@ class Experience extends React.Component {
                     <div className="exp-row">
                         <div className="exp-column1">
                             <p className="exp-column-h6">Data Consultant</p>
-                            <p className="exp-prof-name"> <img src='/Abouabdallah/Images/expleo.jpg' alt='Anwar Abouabdallah - Data Scientist and Python Developer' style={{ width: '150px', height: '100px' }} />
- </p>
+                            <p className="exp-prof-name"> <img src='/Abouabdallah/Images/expleo.jpg' alt='Anwar Abouabdallah - Data Scientist and Python Developer' style={{ width: '150px', height: '100px' }} /></p>
 
                             <p className="exp-date">October 2023 - Now</p>
                             <p className="exp-location">Mérignac, France</p>
                             <ul>
+                                <li>
+                                <strong>JurIA Chatbot Project:</strong>
+                                I spearheaded the evolution of a specialized legal chatbot by transitioning the architecture to an autonomous agentic framework using <strong>LangGraph</strong>. My work involved designing and optimizing a RAG (Retrieval-Augmented Generation) pipeline utilizing <strong>FAISS</strong> and <strong>ChromaDB</strong> for efficient legal document retrieval, alongside research into advanced chunking strategies to improve context relevance. On the backend, I developed robust API routes with <strong>Flask</strong> and managed user data and query persistence using <strong>MongoDB</strong>. To ensure production-grade reliability, I implemented the <strong>CI/CD</strong> pipeline, automated testing suites, and monitored code coverage. Additionally, I performed extensive prompt engineering to enhance model accuracy and mitigate hallucinations in complex legal contexts.
+                                </li>
+
                                 <li>
                                     <strong>Gaia Project : </strong> 
                                      In the Gaia Project, I worked on integrating and analyzing ecological data through machine learning and deep learning models. The project focused on utilizing Python and Azure OpenAI to explore Generative AI (GenAI) use cases, particularly through prompt engineering. By developing custom prompts and fine-tuning pre-trained GenAI models, we aimed to derive meaningful insights and predictions about biodiversity, climate change, and species distribution. In addition, I contributed to building and optimizing the data pipeline, ensuring that large ecological datasets were processed efficiently. The combination of machine learning algorithms and prompt engineering enabled us to create innovative tools for ecological research, enhancing decision-making for biodiversity conservation and environmental studies.
